@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DF0D2A81-F715-4BE7-A629-98C26011F737}</ProjectGuid>
+    <ProjectGuid>{F00EE125-52BC-412F-96DB-0A73A2CE60E3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Equation</RootNamespace>
-    <AssemblyName>Equation</AssemblyName>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <AssemblyName>ConsoleApplication1</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Library\Library.csproj">
-      <Project>{6e2c9795-5deb-47cd-b9d5-ed489b80a442}</Project>
-      <Name>Library</Name>
+    <ProjectReference Include="..\SolveMatrix\SolveMatrix.csproj">
+      <Project>{6c09fe05-aaed-4d22-b14c-bd8818a2932e}</Project>
+      <Name>SolveMatrix</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
