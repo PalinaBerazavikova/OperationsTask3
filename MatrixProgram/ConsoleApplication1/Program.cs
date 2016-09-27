@@ -13,8 +13,8 @@ namespace ConsoleApplication1
         {
             Matrix matrix = new Matrix();
             matrix.ReadFromFileFirst();
-            matrix.ReadFromFileSecond();
-            matrix.MultiplayMatrix();
+            //matrix.ReadFromFileSecond();
+            //matrix.MultiplayMatrix();
             Console.ReadKey();
         }
     }
